@@ -1,0 +1,72 @@
+.container {
+    height: 100vh;
+
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.favContainer {
+    display: flex;
+    width: 60vw;
+    height: 80vh;
+    gap: 7vw;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.favContainer img {   
+    width: 180px;
+    transition: all 0.2s ease;
+}
+.favContainer img:hover {
+    transform: scale(1.2);
+    filter:brightness(150%)
+}
+
+.over {
+    color: #003434;
+    text-decoration: none;
+    font-size: 2.5em;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+.over:hover {
+    transform: scale(1.2);
+    filter:brightness(150%)
+}
+
+.welcome {
+    background-color: #cacaca;
+}
+.general {
+    background-color: #ffffbd;
+}
+.reddit {
+    background-color: #FFCBCB;
+}
+.entertainment {
+    background-color: #C5E0FD;
+}
+.education {
+    background-color: #CEFFC9;
+}
+
+
+/* WELCOME PAGE */
+.welcomeContainer {
+    width: 60vw;
+    height: 75vh;
+
+}
+
+h1 {
+    font-size: 8em;
+}
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+}
+
