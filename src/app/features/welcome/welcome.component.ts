@@ -35,7 +35,7 @@ export class WelcomeComponent implements OnInit {
     console.log(greetingsText.length);
 
     const apiKey = "d5932447ed5cdf742b1f1f2e38cd6e61";
-    const inputVal = "New York"
+    const inputVal = "Napoli"
 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${inputVal}&appid=${apiKey}&units=metric`;
 
