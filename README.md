@@ -2,6 +2,7 @@
 ![banner](https://i.imgur.com/HRhFPDH.png)<br />
 **pastel home**
 is a minimal startpage with colorful pastel theme and animations! <br />
+This startpage is made for learning Angular and web development 
 **[live demo](https://pastel-home.vercel.app/)**
 # <br />
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
